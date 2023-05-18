@@ -22,27 +22,36 @@
     </div>
     <div class="content">
         <section class="form">
-            <form action="main.php" method="get">
-                <input type="text" name="firstName" placeholder="First Name"><label for="firstName"></label><br>
-                <input type="text" name="lastName" placeholder="Last Name"><label for="lastName"></label><br>
-                <label for="zone">Zona</label><br>
-                <select name="zone" id="zone">
-                    <option value="Gradas">Gradas</option>
-                    <option value="Palcos">Palcos</option>
-                    <option value="Nivel">Nivel</option>
-                    <option value="Puerto">Puerto</option>
-                </select><br>
+            <form action="conciertos.php" method="post">
+                <h1 style="margin-bottom: 0px;
+                padding-left: 12px;">Registrate</h1>
+                <!--Names-->
+                <input type="text" name="firstName" placeholder="First Name" required><label for="firstName"></label><br>
+                <input type="text" name="lastName" placeholder="Last Name" required><label for="lastName"></label><br>
+                <!--Cantidad de boletos-->
                 <label for="cantidad">Cantidad de boletos</label><br>
-                <input type="number" name="cantidad" id="cantidad" value="cantidad"><br>
-                <label for="evento">Evento</label><br>
-                <select name="evento" id="evento">
-                    <option value="luisMiguel">Luis Miguel</option>
-                    <option value="chayan">Chayan</option>
-                    <option value="changer">Changer</option>
-                    <option value="molotov">Molotov</option>
+                <input type="number" name="cantidad" id="cantidad" value="" required><br>
+                <!--Evento-->
+                <label for="event">Evento</label><br>
+                <select name="event" id="event" required>
+                    <option value="luis Miguel">Luis Miguel</option>
+                    <option value="Chayan">Chayan</option>
+                    <option value="Changer">Changer</option>
+                    <option value="Molotov">Molotov</option>
                 </select><br>
+                <!--Zona-->
+                    <label for="zone">Zona</label>
+                                <select name="zone" id="zone" required>
+                                    <option value="Gradas">Gradas</option>
+                                    <option value="Palcos">Palcos</option>
+                                    <option value="Nivel">Nivel</option>
+                                    <option value="Puerto">Puerto</option>
+                                </select><br>
+                <!--Fecha-->
                 <label for="date">Fecha</label><br>
-                <input type="date" name="date" id="date"><br>
+                <input type="date" name="date" id="date" required><br>
+                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar">
             </form>
         </section>
     </div>    

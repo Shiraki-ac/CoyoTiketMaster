@@ -39,8 +39,52 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 input{
-    margin-top: 1%;
+    margin-top: 6%;
+    border-radius: 0.4rem;
+}
+label{
+    margin-top: 6%;
+    border-radius: 0.5rem;
+}
+select{
+    margin-top: 6%;
+    background-color: #fdfd96;
+}
+button{
+    border-radius: 0.5rem;
+    background-color: #fdfd96;
+}
+h1{
+    font-size: 1.8rem;
+}
+.tiket{
+    display: flex;
+    justify-content: center;
+    background-color: #00cef5;
+    border-radius: 1rem;
+    height: 500px;
+    width: 290px;
+    margin-right: 5%;
+}
+.boleto{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+tr{
+    height: 80.6px;
+}
+input{
+    background-color: #fdfd96;
+
+}
+form{
+    background: #ff85d5;
+    width: 255.017px;
+    padding-left: 23%;
+    height: 490.1px;
+    border-radius: 1rem;
 }

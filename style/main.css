@@ -34,4 +34,13 @@ body{
 .conteiner{
     background-color: #00cef5;
 }
-/*Formulario*/
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+input{
+    margin-top: 1%;
+}

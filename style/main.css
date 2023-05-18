@@ -1,0 +1,37 @@
+/*IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+/*GENERAL*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navBar{
+    display: ruby;
+}
+.links{
+    padding-left: 50%;
+}
+    .link{
+        border-right-width: auto;
+        border-left-width: 20px;
+        border-left-style: solid;
+        border-color: #00cef5;
+        color: black;
+    }
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10%;
+}
+    .concierto{
+        padding-right: 4%;
+        padding-left: auto;
+        padding-top: auto;
+        padding-bottom: auto;
+        display: grid;
+        justify-content: center;
+    }
+.conteiner{
+    background-color: #00cef5;
+}
+/*Formulario*/

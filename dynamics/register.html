@@ -39,19 +39,29 @@
                     <option value="Changer">Changer</option>
                     <option value="Molotov">Molotov</option>
                 </select><br>
-                <!--Zona-->
-                    <label for="zone">Zona</label>
-                                <select name="zone" id="zone" required>
-                                    <option value="Gradas">Gradas</option>
-                                    <option value="Palcos">Palcos</option>
-                                    <option value="Nivel">Nivel</option>
-                                    <option value="Puerto">Puerto</option>
+                                <!--Lugar-->
+                                <label for="sede">Zona</label>
+                                <select name="sede" id="sede" required>
+                                    <option value="auditorios">Auditorio</option>
+                                    <option value="palacioDeportes">Palacio D</option>
+                                    <option value="foroSol">Foro Sol</option>
+                                    <option value="teatroMetropolitano">Teatro Metropolitano</option>
                                 </select><br>
+                <!--Zona-->
+                <label for="zone">Zona</label>
+                <select name="zone" id="zone" required>
+                    <option value="Gradas">Gradas</option>
+                    <option value="Palcos">Palcos</option>
+                    <option value="Nivel">Nivel</option>
+                    <option value="Puerto">Puerto</option>
+                </select><br>
                 <!--Fecha-->
                 <label for="date">Fecha</label><br>
                 <input type="date" name="date" id="date" required><br>
                 <input type="reset" value="Borrar">
                 <input type="submit" value="Enviar">
+
+                
             </form>
         </section>
     </div>    
